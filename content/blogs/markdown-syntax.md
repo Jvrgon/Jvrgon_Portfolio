@@ -8,7 +8,7 @@ tags:
   - Markdown syntax
   - Sample
   - example
-image: /images/post.jpg
+image: /images/posts/post.jpg
 description: ""
 toc:
 ---

@@ -1,6 +1,6 @@
 baseURL: "https://www.jvrgon.dev/"
 languageCode: "en-us"
-title: "Jaylan Argo"
+title: "Jvrgon"
 theme: hugo-profile
 
 outputs:
@@ -54,8 +54,8 @@ Menus:
       weight: 2
 
 params:
-  title: "Jaylan Argo"
-  description: My portfolio for you to enjoy.
+  title: "Jvrgon"
+  description: The portfolio of Jaylan Argo, for you to enjoy.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -100,20 +100,20 @@ params:
       primaryColor: "#b7d8eb"
       secondaryColor: "#212529"
       textColor: "#e4e6eb"
-      secondaryTextColor: "#b7d8eb"
+      secondaryTextColor: "#b0b3b8"
       textLinkColor: "#7bb8da"
       backgroundColor: "#18191a"
-      secondaryBackgroundColor: "#b7d8eb"
+      secondaryBackgroundColor: "#243746"
       
 
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Jaylan Argo" # Brand name for the brand | default is the title variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Jvrgon" # Brand name for the brand | default is the title variable
     disableSearch: false
-    # searchPlaceholder: "Search"
+    searchPlaceholder: "CTRL + K to Search Posts..."
     stickyNavBar:
       enable : true
       showOnScrollUp : false
@@ -132,11 +132,15 @@ params:
     intro: "Let me introduce myself, my name is..."
     title: "Jaylan."
     subtitle: "I'm studying Cybersecurity & CS."
-    content: 
-        "***
+    content: |
+        ***
 
-        Currently searching for entry-level work in **cybersecurity** or **software engineering**. Your company's name could be here!"
-    image: /images/School-Picture-Close.jpg
+        Currently searching for entry-level work in <span style="color: #7bb8da;">cybersecurity</span> or <span style="color: #7bb8da;">software engineering</span>.  
+        
+        <div style="page-break-after: always;"></div>
+
+        I would love for <span style="color: #7bb8da;">your</span> company's name to be here!
+    image: /images/icons/School-Picture-Close.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -165,20 +169,29 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/push.png"
-    content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+    image: "/images/icons/Dough-Boy.jpg"
+    content: |
+      I am a Computer Science undergraduate senior who just entered the field of Cybersecurity through NCSU's Concentration last year, and is loving every second of learning about it.
+      
+      I consider myself optimistic, friendly, adaptable, and a diligent worker. I am also a lifelong learner who enjoys the process of gaining knowledge from new experiences and working with peers in group environments.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am currently seeking a full-time technical position in Cybersecurity or Software Engineering for Spring 2025 and beyond. I am also open to part-time work starting immediately.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML/CSS"
+        - "Burpsuite"
+        - "Java"
+
         - "JavaScript"
-        - "Python"
         - "SQL"
-        - "Express"
+        - "C"
+
+        - "Node"
+        - "Python"
+        - "Docker"
+        
 
   # Experience
   experience:
@@ -296,14 +309,14 @@ params:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
         url: https://example.com
-        image: /images/achievment.jpg
+        image: /images/generic/achievement.jpg
       - title: Facebook Hackathon Winner
         content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
+        image: /images/generic/achievement.jpg
       - title: Hugo Profile
         content: Developed a theme and getting 1K+ downloads per month.
         url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
+        image: /images/generic/achievement.jpg
       - title: Microsoft Imagine Runner
         content: We are developed a product which can help others.
       - title: Google Summer of Code
@@ -364,7 +377,7 @@ params:
   contact:
     enable: true
     title: "Contact"
-    content: "jaylanargo@yahoo.com  ―||―  980-242-6535"
+    content: "jaylanargo@yahoo.com  ―||―  980-242-6535 "
     btnName: Mail me
     btnLink: mailto:jaylanargo@yahoo.com
     # formspree:

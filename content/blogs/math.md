@@ -7,7 +7,7 @@ tags:
   - Markdown syntax
   - Mathjax
   - example
-image: /images/mathjax.png
+image: /images/posts/mathjax.png
 description: ""
 toc: true
 mathjax: true

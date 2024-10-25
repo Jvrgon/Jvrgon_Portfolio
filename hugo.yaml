@@ -110,7 +110,7 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Jaylan Argo" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
@@ -132,11 +132,15 @@ params:
     intro: "Let me introduce myself, my name is..."
     title: "Jaylan."
     subtitle: "I'm studying Cybersecurity & CS."
-    content: 
-        "***
+    content: |
+        ***
 
-        Currently searching for entry-level work in **cybersecurity** or **software engineering**. Your company's name could be here!"
-    image: /images/School-Picture-Close.jpg
+        Currently searching for entry-level work in <span style="color: #7bb8da;">cybersecurity</span> or <span style="color: #7bb8da;">software engineering</span>.  
+        
+        <div style="page-break-after: always;"></div>
+
+        I would love for <span style="color: #7bb8da;">your</span> company's name to be here!
+    image: /images/icons/School-Picture-Close.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -165,7 +169,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/push.png"
+    image: "/images/icons/Dough-Boy.jpg"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
@@ -176,9 +180,11 @@ params:
       items:
         - "HTML/CSS"
         - "JavaScript"
-        - "Python"
+        - "Node"
+        - "Cypress"
+        - "Burpsuite"
         - "SQL"
-        - "Express"
+        
 
   # Experience
   experience:
@@ -296,14 +302,14 @@ params:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
         url: https://example.com
-        image: /images/achievment.jpg
+        image: /images/generic/achievement.jpg
       - title: Facebook Hackathon Winner
         content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
+        image: /images/generic/achievement.jpg
       - title: Hugo Profile
         content: Developed a theme and getting 1K+ downloads per month.
         url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
+        image: /images/generic/achievement.jpg
       - title: Microsoft Imagine Runner
         content: We are developed a product which can help others.
       - title: Google Summer of Code

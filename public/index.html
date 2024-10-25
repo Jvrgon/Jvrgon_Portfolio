@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href=/fav.jpg type="image/gif">
+<link rel="icon" href=/fav.png type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,14 +32,14 @@
 <meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="Jaylan Argo">
   <meta property="og:title" content="Jaylan Argo">
-  <meta property="og:description" content="Text about my cool site">
+  <meta property="og:description" content="My portfolio for you to enjoy.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Jaylan Argo">
-  <meta name="twitter:description" content="Text about my cool site">
+  <meta name="twitter:description" content="My portfolio for you to enjoy.">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -60,8 +60,8 @@
 
          
         --text-color-dark: #e4e6eb;
-        --text-secondary-color-dark: #b0b3b8;
-        --text-link-color-dark: #ffffff;
+        --text-secondary-color-dark: #b7d8eb;
+        --text-link-color-dark: #7bb8da;
         --background-color-dark: #18191a;
         --secondary-background-color-dark: #b7d8eb;
         --primary-color-dark: #b7d8eb;
@@ -103,7 +103,7 @@
 
 
 
-<meta name="description" content=Text&#32;about&#32;my&#32;cool&#32;site>
+<meta name="description" content=My&#32;portfolio&#32;for&#32;you&#32;to&#32;enjoy.>
 <link rel="stylesheet" href="/css/index.css" media="all">
 <link rel="stylesheet" href="/css/projects.css" media="all">
 
@@ -151,7 +151,7 @@ Jaylan Argo
         let profileHeaderElem = document.getElementById("profileHeader");
         let currentScrollPos = window.pageYOffset;
         let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
+        let showNavBarOnScrollUp =  false ;
         let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
         if (showNavBar) {
             profileHeaderElem.classList.add("showHeaderOnTop");
@@ -176,7 +176,7 @@ Jaylan Argo
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="/fav.jpg" width="30" height="30"
+                <img src="/fav.png" width="30" height="30"
                     class="d-inline-block align-top">
                 Jaylan Argo
                 
@@ -244,25 +244,44 @@ Jaylan Argo
                     
 
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#achievements"
-                            aria-label="achievements">
-                            Achievements
-                        </a>
-                    </li>
-                    
 
                     
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/#contact"
                             aria-label="contact">
-                            Contact Information
+                            Contact
                         </a>
                     </li>
                     
 
                     
+                        <li class="nav-item navbar-text d-none d-lg-block d-xl-block"><div class="nav-link nav-link-sep"></div></li>
+                        <div class="dropdown-divider"></div>
+                    
 
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Personal Dropdown menu">
+                            Personal
+                        </a>
+                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
+                            
+                            <a class="dropdown-item text-center nav-link" href="/blogs"
+                                title="Blog Item">
+                                Blog
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/gallery"
+                                title="Gallery Item">
+                                Gallery
+                            </a>
+                            
+                        </div>
+                    </li>
                     
                     
 
@@ -305,7 +324,7 @@ Jaylan Argo
                     Let me introduce myself, my name is...
                 </span>
                 <h2>
-                    Jaylan Argo.
+                    Jaylan.
                 </h2>
                 <h3>
                     I&#39;m studying Cybersecurity &amp; CS.
@@ -317,16 +336,27 @@ Jaylan Argo
                 <div class="row">
                     <div class="col-auto h-100">
                         
-                        <a href="#" class="btn" download
-			  >
-                            LinkedIn
+                        <a href="https://drive.google.com/file/d/18ZPmVDCCNcf2LXdNloUUIeFjkjtOuyPU/view?usp=sharing" class="btn" ZgotmplZ
+			  
+                          target="_blank"
+                          >
+                            Resume
                         </a>
                         
                     </div>
                     <div class="col-auto px-0 h-100"><span>
     
     <span class="px-1">
-        <a href="https://example.com"
+        <a href="https://linkedin.com/in/jaylan-argo"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="https://github.com/jvrgon"
              target="_blank" 
             class="btn social-icon"
         >
@@ -335,24 +365,15 @@ Jaylan Argo
     </span>
     
     <span class="px-1">
-        <a href="https://example.com"
+        <a href="mailto:jaylanargo@yahoo.com"
              target="_blank" 
             class="btn social-icon"
         >
-            <i class="fab fa-x-twitter"></i>
+            <i class="fab fa-yahoo"></i>
         </a>
     </span>
     
 
-    
-    <span class="px-1">
-        <a href="https://example.com"
-             target="_blank" 
-            class="btn social-icon"
-        >
-            <img src="/fav.jpg">
-        </a>
-    </span>
     
 </span>
 </div>
@@ -643,7 +664,7 @@ Jaylan Argo
             
             <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
                 <div class="image d-flex px-5">
-                    <img src="/images/me.png" class="img-thumbnail mx-auto rounded-circle" alt="">
+                    <img src="/images/push.png" class="img-thumbnail mx-auto rounded-circle" alt="">
                 </div>
             </div>
             
@@ -656,15 +677,13 @@ Jaylan Argo
                 Here are a few technologies I&#39;ve been working with recently:
                 <ul>
                     
-                    <li>HTML</li>
-                    
-                    <li>CSS</li>
+                    <li>HTML/CSS</li>
                     
                     <li>JavaScript</li>
                     
-                    <li>React</li>
+                    <li>Python</li>
                     
-                    <li>Node</li>
+                    <li>SQL</li>
                     
                     <li>Express</li>
                     
@@ -1373,12 +1392,12 @@ Jaylan Argo
 
 <section id="contact" class="py-5">
     <div class="container">
-        <h3 class="text-center">Contact Information</h3>
+        <h3 class="text-center">Contact</h3>
         <div class="px-0 px-md-5 px-lg-5">
             <div class="row justify-content-center px-md-5">
                 <div class="col-md-8 py-3">
                     <div class="text-center">
-                        <a href="mailto:jaylanargo@yahoo.com">jaylanargo@yahoo.com</a>
+                        <a href="mailto:jaylanargo@yahoo.com">jaylanargo@yahoo.com</a>  ―||―  980-242-6535
                     </div>
                     
                     <div class="text-center pt-3">
@@ -1590,7 +1609,7 @@ Jaylan Argo
             
                 <div class="pb-2">
                     <a href="http://localhost:1313/" title="Jaylan Argo">
-                        <img alt="Footer logo" src="/fav.jpg"
+                        <img alt="Footer logo" src="/fav.png"
                             height="40px" width="40px">
                     </a>
                 </div>

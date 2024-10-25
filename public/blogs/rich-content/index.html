@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href=/fav.jpg type="image/gif">
+<link rel="icon" href=/fav.png type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +32,8 @@
   <meta property="og:site_name" content="Jaylan Argo">
   <meta property="og:title" content="Rich Content">
   <meta property="og:description" content="Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-Gist Simple Shortcode {{&lt; gist spf13 7896402 &#34;img.html&#34; &gt;}} Twitter Simple Shortcode {{&lt; tweet GoHugoIO 1315233626070503424 &gt;}} Vimeo Simple Shortcode {{&lt; vimeo 146022717 &gt;}} Youtube Simple Shortcode {{&lt; youtube w7Ft2ymGmfc &gt;}} Theme Custom Shortcodes These shortcodes are not Hugo built-ins, but are provided by the theme.">
+Gist Simple Shortcode {{&lt; gist spf13 7896402 &#34;img.html&#34; &gt;}} Twitter Simple Shortcode {{&lt; tweet GoHugoIO 1315233626070503424 &gt;}} Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by @gurusabarishh.https://t.co/KwYcwfdy16
+— GoHugo.io (@GoHugoIO) October 11, 2020 Vimeo Simple Shortcode {{&lt; vimeo 146022717 &gt;}} Youtube Simple Shortcode {{&lt; youtube w7Ft2ymGmfc &gt;}} Theme Custom Shortcodes These shortcodes are not Hugo built-ins, but are provided by the theme.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blogs">
@@ -46,7 +47,8 @@ Gist Simple Shortcode {{&lt; gist spf13 7896402 &#34;img.html&#34; &gt;}} Twitte
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Rich Content">
   <meta name="twitter:description" content="Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-Gist Simple Shortcode {{&lt; gist spf13 7896402 &#34;img.html&#34; &gt;}} Twitter Simple Shortcode {{&lt; tweet GoHugoIO 1315233626070503424 &gt;}} Vimeo Simple Shortcode {{&lt; vimeo 146022717 &gt;}} Youtube Simple Shortcode {{&lt; youtube w7Ft2ymGmfc &gt;}} Theme Custom Shortcodes These shortcodes are not Hugo built-ins, but are provided by the theme.">
+Gist Simple Shortcode {{&lt; gist spf13 7896402 &#34;img.html&#34; &gt;}} Twitter Simple Shortcode {{&lt; tweet GoHugoIO 1315233626070503424 &gt;}} Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by @gurusabarishh.https://t.co/KwYcwfdy16
+— GoHugo.io (@GoHugoIO) October 11, 2020 Vimeo Simple Shortcode {{&lt; vimeo 146022717 &gt;}} Youtube Simple Shortcode {{&lt; youtube w7Ft2ymGmfc &gt;}} Theme Custom Shortcodes These shortcodes are not Hugo built-ins, but are provided by the theme.">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -67,8 +69,8 @@ Gist Simple Shortcode {{&lt; gist spf13 7896402 &#34;img.html&#34; &gt;}} Twitte
 
          
         --text-color-dark: #e4e6eb;
-        --text-secondary-color-dark: #b0b3b8;
-        --text-link-color-dark: #ffffff;
+        --text-secondary-color-dark: #b7d8eb;
+        --text-link-color-dark: #7bb8da;
         --background-color-dark: #18191a;
         --secondary-background-color-dark: #b7d8eb;
         --primary-color-dark: #b7d8eb;
@@ -157,7 +159,7 @@ Rich Content | Jaylan Argo
         let profileHeaderElem = document.getElementById("profileHeader");
         let currentScrollPos = window.pageYOffset;
         let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
+        let showNavBarOnScrollUp =  false ;
         let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
         if (showNavBar) {
             profileHeaderElem.classList.add("showHeaderOnTop");
@@ -182,7 +184,7 @@ Rich Content | Jaylan Argo
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="/fav.jpg" width="30" height="30"
+                <img src="/fav.png" width="30" height="30"
                     class="d-inline-block align-top">
                 Jaylan Argo
                 
@@ -250,25 +252,44 @@ Rich Content | Jaylan Argo
                     
 
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#achievements"
-                            aria-label="achievements">
-                            Achievements
-                        </a>
-                    </li>
-                    
 
                     
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/#contact"
                             aria-label="contact">
-                            Contact Information
+                            Contact
                         </a>
                     </li>
                     
 
                     
+                        <li class="nav-item navbar-text d-none d-lg-block d-xl-block"><div class="nav-link nav-link-sep"></div></li>
+                        <div class="dropdown-divider"></div>
+                    
 
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Personal Dropdown menu">
+                            Personal
+                        </a>
+                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
+                            
+                            <a class="dropdown-item text-center nav-link" href="/blogs"
+                                title="Blog Item">
+                                Blog
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/gallery"
+                                title="Gallery Item">
+                                Gallery
+                            </a>
+                            
+                        </div>
+                    </li>
                     
                     
 
@@ -333,16 +354,39 @@ Rich Content | Jaylan Argo
           <p>Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
 <h2 id="gist-simple-shortcode">Gist Simple Shortcode</h2>
 <pre tabindex="0"><code>{{&lt; gist spf13 7896402 &#34;img.html&#34; &gt;}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><br>
+<script src="https://gist.github.com/spf13/7896402.js?file=img.html"></script>
+
+<br>
 <h2 id="twitter-simple-shortcode">Twitter Simple Shortcode</h2>
 <pre tabindex="0"><code>{{&lt; tweet GoHugoIO 1315233626070503424 &gt;}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><br>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by <a href="https://twitter.com/gurusabarishh?ref_src=twsrc%5Etfw">@gurusabarishh</a>.<a href="https://t.co/KwYcwfdy16">https://t.co/KwYcwfdy16</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/1315233626070503424?ref_src=twsrc%5Etfw">October 11, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<br>
 <h2 id="vimeo-simple-shortcode">Vimeo Simple Shortcode</h2>
 <pre tabindex="0"><code>{{&lt; vimeo 146022717 &gt;}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/146022717" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<br>
 <h2 id="youtube-simple-shortcode">Youtube Simple Shortcode</h2>
 <pre tabindex="0"><code>{{&lt; youtube w7Ft2ymGmfc &gt;}}
-</code></pre><!-- raw HTML omitted -->
+</code></pre><br>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<br>
 <h2 id="theme-custom-shortcodes">Theme Custom Shortcodes</h2>
 <p>These shortcodes are not Hugo built-ins, but are provided by the theme.</p>
 <h3 id="responsive-images-with-cloudinary">Responsive Images with Cloudinary</h3>
@@ -663,7 +707,7 @@ Rich Content | Jaylan Argo
             
                 <div class="pb-2">
                     <a href="http://localhost:1313/" title="Jaylan Argo">
-                        <img alt="Footer logo" src="/fav.jpg"
+                        <img alt="Footer logo" src="/fav.png"
                             height="40px" width="40px">
                     </a>
                 </div>

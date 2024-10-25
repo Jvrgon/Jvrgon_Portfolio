@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href=/fav.jpg type="image/gif">
+<link rel="icon" href=/fav.png type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,8 +73,8 @@ N.B. The above steps enable Unicode Standard emoji characters and sequences in H
 
          
         --text-color-dark: #e4e6eb;
-        --text-secondary-color-dark: #b0b3b8;
-        --text-link-color-dark: #ffffff;
+        --text-secondary-color-dark: #b7d8eb;
+        --text-link-color-dark: #7bb8da;
         --background-color-dark: #18191a;
         --secondary-background-color-dark: #b7d8eb;
         --primary-color-dark: #b7d8eb;
@@ -163,7 +163,7 @@ Emoji Support | Jaylan Argo
         let profileHeaderElem = document.getElementById("profileHeader");
         let currentScrollPos = window.pageYOffset;
         let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
+        let showNavBarOnScrollUp =  false ;
         let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
         if (showNavBar) {
             profileHeaderElem.classList.add("showHeaderOnTop");
@@ -188,7 +188,7 @@ Emoji Support | Jaylan Argo
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="/fav.jpg" width="30" height="30"
+                <img src="/fav.png" width="30" height="30"
                     class="d-inline-block align-top">
                 Jaylan Argo
                 
@@ -256,25 +256,44 @@ Emoji Support | Jaylan Argo
                     
 
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#achievements"
-                            aria-label="achievements">
-                            Achievements
-                        </a>
-                    </li>
-                    
 
                     
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/#contact"
                             aria-label="contact">
-                            Contact Information
+                            Contact
                         </a>
                     </li>
                     
 
                     
+                        <li class="nav-item navbar-text d-none d-lg-block d-xl-block"><div class="nav-link nav-link-sep"></div></li>
+                        <div class="dropdown-divider"></div>
+                    
 
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Personal Dropdown menu">
+                            Personal
+                        </a>
+                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
+                            
+                            <a class="dropdown-item text-center nav-link" href="/blogs"
+                                title="Blog Item">
+                                Blog
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/gallery"
+                                title="Gallery Item">
+                                Gallery
+                            </a>
+                            
+                        </div>
+                    </li>
                     
                     
 
@@ -341,7 +360,7 @@ Emoji Support | Jaylan Argo
 <p>The <a href="https://gohugo.io/functions/emojify/">emojify</a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
 <p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
 <p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
-<!-- raw HTML omitted -->
+<hr>
 <p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
 <pre tabindex="0"><code>.emoji {
   font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
@@ -649,7 +668,7 @@ Emoji Support | Jaylan Argo
             
                 <div class="pb-2">
                     <a href="http://localhost:1313/" title="Jaylan Argo">
-                        <img alt="Footer logo" src="/fav.jpg"
+                        <img alt="Footer logo" src="/fav.png"
                             height="40px" width="40px">
                     </a>
                 </div>

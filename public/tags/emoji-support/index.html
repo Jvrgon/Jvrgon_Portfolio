@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href=/fav.jpg type="image/gif">
+<link rel="icon" href=/fav.png type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,14 +31,14 @@
 <meta property="og:url" content="http://localhost:1313/tags/emoji-support/">
   <meta property="og:site_name" content="Jaylan Argo">
   <meta property="og:title" content="Emoji Support">
-  <meta property="og:description" content="Text about my cool site">
+  <meta property="og:description" content="My portfolio for you to enjoy.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Emoji Support">
-  <meta name="twitter:description" content="Text about my cool site">
+  <meta name="twitter:description" content="My portfolio for you to enjoy.">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -59,8 +59,8 @@
 
          
         --text-color-dark: #e4e6eb;
-        --text-secondary-color-dark: #b0b3b8;
-        --text-link-color-dark: #ffffff;
+        --text-secondary-color-dark: #b7d8eb;
+        --text-link-color-dark: #7bb8da;
         --background-color-dark: #18191a;
         --secondary-background-color-dark: #b7d8eb;
         --primary-color-dark: #b7d8eb;
@@ -146,7 +146,7 @@ Emoji Support | Jaylan Argo
         let profileHeaderElem = document.getElementById("profileHeader");
         let currentScrollPos = window.pageYOffset;
         let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
+        let showNavBarOnScrollUp =  false ;
         let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
         if (showNavBar) {
             profileHeaderElem.classList.add("showHeaderOnTop");
@@ -171,7 +171,7 @@ Emoji Support | Jaylan Argo
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="/fav.jpg" width="30" height="30"
+                <img src="/fav.png" width="30" height="30"
                     class="d-inline-block align-top">
                 Jaylan Argo
                 
@@ -239,25 +239,44 @@ Emoji Support | Jaylan Argo
                     
 
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#achievements"
-                            aria-label="achievements">
-                            Achievements
-                        </a>
-                    </li>
-                    
 
                     
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/#contact"
                             aria-label="contact">
-                            Contact Information
+                            Contact
                         </a>
                     </li>
                     
 
                     
+                        <li class="nav-item navbar-text d-none d-lg-block d-xl-block"><div class="nav-link nav-link-sep"></div></li>
+                        <div class="dropdown-divider"></div>
+                    
 
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Personal Dropdown menu">
+                            Personal
+                        </a>
+                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
+                            
+                            <a class="dropdown-item text-center nav-link" href="/blogs"
+                                title="Blog Item">
+                                Blog
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/gallery"
+                                title="Gallery Item">
+                                Gallery
+                            </a>
+                            
+                        </div>
+                    </li>
                     
                     
 
@@ -510,7 +529,7 @@ Emoji Support | Jaylan Argo
             
                 <div class="pb-2">
                     <a href="http://localhost:1313/" title="Jaylan Argo">
-                        <img alt="Footer logo" src="/fav.jpg"
+                        <img alt="Footer logo" src="/fav.png"
                             height="40px" width="40px">
                     </a>
                 </div>

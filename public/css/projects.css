@@ -1,7 +1,7 @@
 /* projects */
 
 #projects h3 {
-    color: var(--text-secondary-color) !important;
+    color: var(--primary-color) !important;
 }
 
 #projects a {

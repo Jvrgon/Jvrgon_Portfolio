@@ -1,4 +1,4 @@
-{{ $recentPostsPath := .Site.Params.footer.recentPosts.path | default "blogs" }}
+{{ $recentPostsPath := .Site.Params.footer.recentPosts.path | default "posts" }}
 {{ $currentNumOfrecentPosts := len (where .Site.RegularPages "Type" $recentPostsPath) }} 
 {{ if and (gt $currentNumOfrecentPosts 0) (.Site.Params.footer.recentPosts.enable | default false) }} 
 <div class="container py-3" id="recent-posts">

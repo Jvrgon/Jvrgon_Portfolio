@@ -148,13 +148,19 @@ header .navbar.animate {
     opacity: 0.8;
 }
 
+/* Made some edits to ensure it stays the same height as the social icons. */
 #hero a.btn {
     margin-top: 50px;
-    padding: 0.7rem 1.75rem;
+    padding: 0 1.75rem;
+    height: 40.38px;
+    line-height: 40.38px; 
     border: 1px solid var(--primary-color);
     color: var(--text-color) !important;
     border-radius: .75rem;
     transition: none;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center; 
 }
 
 #hero a.btn:focus {

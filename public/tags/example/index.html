@@ -53,7 +53,7 @@
         --text-secondary-color: #6c757d;
         --text-link-color: #007bff;
         --background-color: #eaedf0;
-        --secondary-background-color: #b7d8eb;
+        --secondary-background-color: #243746;
         --primary-color: #7bb8da;
         --secondary-color: #f8f9fa;
 
@@ -265,7 +265,7 @@ Example | Jvrgon
                             
                             <a class="dropdown-item text-center nav-link" href="/blogs"
                                 title="Blog Item">
-                                Blog
+                                Posts
                             </a>
                             
                             <a class="dropdown-item text-center nav-link" href="/gallery"
@@ -399,29 +399,69 @@ Example | Jvrgon
             </div>
         </div>
         
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-header">
+                        <a href="/blogs/placeholder-text/">
+                            <img src="/images/posts/post.jpg" class="card-img-top" alt="Placeholder Text">
+                        </a>
+                    </div>
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blogs/placeholder-text/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Placeholder Text">Placeholder Text</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
+<p>Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine …</p></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Apr 3, 2021</span>
+                        <a href="/blogs/placeholder-text/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-header">
+                        <a href="/blogs/rich-content/">
+                            <img src="/images/posts/post.jpg" class="card-img-top" alt="Rich Content">
+                        </a>
+                    </div>
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/blogs/rich-content/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Rich Content">Rich Content</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p><p>Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
+<h2 id="gist-simple-shortcode">Gist Simple Shortcode</h2>
+<pre tabindex="0"><code>{{&lt; gist spf13 7896402 &#34;img.html&#34; &gt;}}
+</code></pre><br>
+<script src="https://gist.github.com/spf13/7896402.js?file=img.html"></script>
+
+<br>
+<h2 id="twitter-simple-shortcode">Twitter Simple Shortcode …</h2></p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Apr 3, 2021</span>
+                        <a href="/blogs/rich-content/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <div class="row justify-content-center">
             <div class="col-auto m-3">
                 
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/example/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/example/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/example/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
             </div>
         </div>
     </div>
@@ -441,12 +481,6 @@ Example | Jvrgon
         
         <div class="col-lg-4 col-md-6 pt-2">
             <div class="card h-100">
-                
-                <div class="card-header">
-                    <a href="/blogs/math/">
-                        <img src="/images/posts/mathjax.png" class="card-img-top" alt="Render Math With Mathjax">
-                    </a>
-                </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
                     <a href="/blogs/math/" class="primary-font card-title">
@@ -470,12 +504,6 @@ Example | Jvrgon
         <div class="col-lg-4 col-md-6 pt-2">
             <div class="card h-100">
                 
-                <div class="card-header">
-                    <a href="/blogs/markdown-syntax/">
-                        <img src="/images/posts/post.jpg" class="card-img-top" alt="Markdown Syntax">
-                    </a>
-                </div>
-                
                 <div class="card-body bg-transparent p-3 shadow-sm">
                     <a href="/blogs/markdown-syntax/" class="primary-font card-title">
                         <h5 class="card-title bg-transparent" title="Markdown Syntax">Markdown Syntax</h5>
@@ -494,12 +522,6 @@ Example | Jvrgon
         
         <div class="col-lg-4 col-md-6 pt-2">
             <div class="card h-100">
-                
-                <div class="card-header">
-                    <a href="/blogs/emoji-support/">
-                        <img src="/images/posts/post.jpg" class="card-img-top" alt="Emoji Support">
-                    </a>
-                </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
                     <a href="/blogs/emoji-support/" class="primary-font card-title">

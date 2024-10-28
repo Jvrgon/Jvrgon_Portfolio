@@ -12,8 +12,9 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
-enableRobotsTXT: true
+pagination:
+  pagerSize: 6
+enableRobotsTXT: false
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
 
@@ -42,7 +43,7 @@ Menus:
       weight: 3
     - identifier: blog
       title: Blog Item
-      name: Blog
+      name: Posts
       url: /blogs
       parent: dropdown
       weight: 1
@@ -94,7 +95,7 @@ params:
     secondaryTextColor: "#6c757d"
     textLinkColor: "#007bff"
     backgroundColor: "#eaedf0"
-    secondaryBackgroundColor: "#b7d8eb"
+    secondaryBackgroundColor: "#243746"
 
     darkmode:
       primaryColor: "#b7d8eb"
@@ -157,9 +158,6 @@ params:
           newPage: true
         - icon: fab fa-github
           url: https://github.com/jvrgon
-          newPage: true
-        - icon: fab fa-yahoo
-          url: mailto:jaylanargo@yahoo.com
           newPage: true
       # customIcons:
       #   - icon: /fav.png
@@ -395,7 +393,7 @@ params:
       count: 3
       title: Recent Posts
       enable: true
-      disableFeaturedImage: false
+      disableFeaturedImage: true
     socialNetworks:
       github: https://github.com/Jvrgon
       linkedin: https://linkedin.com/in/jaylan-argo
@@ -407,7 +405,7 @@ params:
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
       enable: true
       content: "min read"

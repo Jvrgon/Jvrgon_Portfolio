@@ -1,3 +1,7 @@
+/* footer .h3 {
+    color: var(--primary-color) !important;
+} */
+
 footer a h5 {
     color: var(--text-color) !important;
 }

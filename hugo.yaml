@@ -148,7 +148,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/18ZPmVDCCNcf2LXdNloUUIeFjkjtOuyPU/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1xLdlXdj2qB5sqKCl8XgZFWsgScWFpiXg/"
       # download: true
       newPage: true
     socialLinks:
@@ -370,9 +370,7 @@ params:
   contact:
     enable: true
     title: "Contact"
-    content: "jaylanargo@yahoo.com  ―|―  980-242-6535 "
-    btnName: Mail me
-    btnLink: mailto:jaylanargo@yahoo.com
+    content: "jaylanargo [at] yahoo.com"
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'

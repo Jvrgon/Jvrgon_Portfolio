@@ -41,10 +41,10 @@ Menus:
       title: Personal Dropdown menu
       name: Personal
       weight: 3
-    - identifier: blog
-      title: Blog Item
+    - identifier: post
+      title: Post Item
       name: Posts
-      url: /blogs
+      url: /posts
       parent: dropdown
       weight: 1
     - identifier: gallery
@@ -389,7 +389,7 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "posts"
       count: 3
       title: Recent Posts
       enable: true

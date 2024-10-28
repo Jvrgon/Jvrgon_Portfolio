@@ -196,65 +196,58 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+      - job: "Cyber Risk Management Intern"
+        company: "Align Technology"
+        companyUrl: "https://www.aligntech.com/"
+        date: "May 2024 - Aug 2024"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: I worked full-time over the summer in between school semesters.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Interned at Align Technology, the creators of the Invisalign system, in the Risk Management department of Information Security. My experience included:
+          
+          - Assisted with conceptualizing & developing a new Risk Management project assessment form for internal teams.
+          - Completed requests on the existing project assessment form & helped track past-due items.
+          - Engaged with multiple Information Security teams and learned numerous roles within the company.
+          - Created long-lasting connections with employees and other interns through networking events and self-planned outings.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "Restaurant Server, Busboy, Delivery Driver"
+        company: "Various Restaurants"
+        companyUrl: "https://www.linkedin.com/in/jaylan-argo/details/experience/"
+        date: "Jun 2017 - Aug 2023"
         info:
-          enable: false
-        featuredLink:
           enable: true
-          url: "https://example.com"
+          content: Worked in various time periods between high school and college.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          For more details and specific time frames, please view my <a href="https://www.linkedin.com/in/jaylan-argo/details/experience/" target="_blank">LinkedIn Experiences Section</a>.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          During various time frames in this range of dates, I worked as a server, busboy, and delivery driver at various restaurants in the Charlotte area.
+          They were all part time, either as a byproduct of studying during this time or taking on 2 at once. Restaurants in descending order of recency: 
+          - Bahn Thai || Sushi 101 Ballantyne || Kabuto Japanese Steakhouse & Sushi Bar || Wan Fu || Deejai Thai || Thaihouse
 
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Responsibilities may have included:
+          - Sat customers, took orders, ran food, cleaned tables, organized workstations, and facilitated takeout.
+          - Coordinated between many employees to create a smooth workflow alongside peers and meet expectations.
+          - Built great relationships with customers and staff, learned about restaurant service and management from the owner and other employees.
+          - Maintained consistent work in a fast-paced environment, averaging 18,000 steps per 5-hour shift.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
 
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      # - job: "Software Developer"
+      #   company: "Amazon"
+      #   companyUrl: "https://example.com"
+      #   date: "Sep 2020 - Dec 2021"
+      #   featuredLink:
+      #     enable: true
+      #     name: "View the project"
+      #     url: "https://example.com"
+      #   info:
+      #     enable: true
+      #     content: I worked as a software developer for more than one year in Amazon.
+      #   content: |
+      #     I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+      #     - Lead backend developer for a product.
+      #     - Created a frontend design for a product.
 
   # Education
   education:
@@ -262,120 +255,122 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "B.S. - Computer Science, Cybersecurity Concentration"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
+          name: "North Carolina State University"
+          url: "https://www.csc.ncsu.edu/"
+        date: "2022 - 2025"
+        GPA: "3.79/4.0"
+        content: |
+          Currently studying Computer Science within their Cybersecurity Concentration program at NCSU. Focusing on learning about various threats, exploits, and security measures to protect against them. I am also learning about software development, networking, and web development.
+          
+          Relevant Coursework:
+            - Senior Design || Modern Topics in Cybersecurity || Computer Security || Software Security || Network Security || Web App Development || Assembly Language || Software Engineering || C & Software Tools || Data Structures & Algorithms || Operating Systems || Ethics in Computing.
+          
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+            - Participated in Hackpack, a cybersecurity-oriented club. Took part in CTF challenges, learned about various threats & exploits, and attended conferences as a group.
+            - Participated (briefly) in the eSports club, where I socialized with other students and played games in a competitive environment.
+      
+      - title: "A.E. - Associate's in Engineering"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          name: "Central Piedmont Community College"
+          url: "https://www.cpcc.edu/"
+        date: "2020 - 2021"
+        GPA: "3.5/4.0"
+        content: |
+          Studied Engineering with a focus in Computer Science at CPCC for a year to save money on tuition and plan a transfer to NCSU.
+          
+          I took courses in Calculus, Physics, and Computer Science to prepare for transferring. I only had 3 semesters worth of work due to AP credits from high school.
+          
+          Relevant Coursework:
+            - Computing Fundamentals, Logic System Design.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+          I spent my time outside of school working to save up for transferring to NCSU.
+
+      - title: "High School Diploma"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Providence High School"
+          url: "https://www.cmsk12.org/providenceHS"
+        GPA: "4.16 out of 5.0"
 
-  # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/generic/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/generic/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/generic/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: LAS - AI Artifact Management System
+        content: Created a Web Application from the ground up to Adjudicate AI Artifacts for LAS at NCSU.
+        image: /images/projects/LAS-Logo.jpg
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Post
+          link: "/posts/las-ams/"
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - "Python (Flask)"
+          - "Vue.js"
+          - "Cypress"
+          - "Docker"
+          - "PostgreSQL"
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: NCSU - Web Application Development
+        content: Created multiple Web Applications for CSC342 at NCSU as we learned web technologies.
+        image: /images/projects/CSC-NCSU.jpg
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Post
+          link: /posts/web-app-dev/
         badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
+          - "HTML/CSS"
           - "Javascript"
+          - "Node.js"
+          - "Docker"
+      
+      - title: NCSU - Computer Security
+        content: Took part in 4 CTFs for CSC405 at NCSU and learned about various threats and exploits.
+        image: /images/projects/CSC-NCSU.jpg
+        featured:
+          name: Post
+          link: /posts/web-app-dev/
+        badges:
+          - "Binary Exploitation"
+          - "Shellcode"
+          - "Web Exploits"
+          - "LLM Attacks"
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
+
+      - title: Burp Suite Web Academy
+        content: Currently going through the Burp Suite Web Academy and documenting my journey.
+        image: /images/projects/PortSwigger.jpg
+        featured:
+          name: Post
+          link: Posts/burpsuite-web-academy-hub/
+        badges:
+          - "Burpsuite"
+          - "Web Security"
+          - "Education"
+        links:
+          - icon: fas fa-credit-card
+            url: https://portswigger.net/web-security
+
+            
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: HackPack CTF 2024
+        content: Participated in HackPack's CTF event in 2024 and helped solve 4 out of the 9 challenges for my team.
+        # image: /images/generic/achievement.jpg
+      - title: HooHacks 2024
+        content: Participated in the Hoohacks 2024 Hackathon and developed a small beginner-level project with a team of 4.
+        url: https://github.com/Mach1212/hoohacks2024
 
   #Contact
   contact:
     enable: true
     title: "Contact"
-    content: "jaylanargo@yahoo.com  ―||―  980-242-6535 "
+    content: "jaylanargo@yahoo.com  ―|―  980-242-6535 "
     btnName: Mail me
     btnLink: mailto:jaylanargo@yahoo.com
     # formspree:

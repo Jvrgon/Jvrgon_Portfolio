@@ -1,3 +1,33 @@
 .viewer-enabled-image {
     cursor: zoom-in;
 }
+
+.img-fluid {
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container without white borders */
+}
+
+#list-page .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    width: 100%;
+    height: 280px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without white borders */
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important; /* Adjust the spacing between rows as needed */
+}

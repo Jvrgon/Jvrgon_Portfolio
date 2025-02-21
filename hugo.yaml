@@ -25,34 +25,34 @@ markup:
 
 Menus:
   main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 1
-    # - identifier: gallery
-    #   name: Gallery
-    #   title: Blog posts
-    #   url: /gallery
-    #   weight: 2
-      
-  # dropdown menu:
-    - identifier: dropdown
-      title: Personal Dropdown menu
-      name: Personal
-      weight: 3
     - identifier: post
-      title: Post Item
       name: Posts
+      title: Post
       url: /posts
-      parent: dropdown
       weight: 1
     - identifier: gallery
-      title: Gallery Item
-      name: Gallery
+      name: Photos
+      title: Gallery
       url: /gallery
-      parent: dropdown
       weight: 2
+      
+  # dropdown menu:
+    # - identifier: dropdown
+    #   title: Personal Dropdown menu
+    #   name: Personal
+    #   weight: 3
+    # - identifier: post
+    #   title: Post Item
+    #   name: Posts
+    #   url: /posts
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: gallery
+    #   title: Gallery Item
+    #   name: Gallery
+    #   url: /gallery
+    #   parent: dropdown
+    #   weight: 2
 
 params:
   title: "Jvrgon"
@@ -173,63 +173,64 @@ params:
       
       I consider myself optimistic, friendly, adaptable, and a diligent worker. I am also a lifelong learner who enjoys the process of gaining knowledge from new experiences and working with peers in group environments.
 
-      I am currently seeking a full-time technical position in Cybersecurity or Software Engineering for Spring 2025 and beyond. I am also open to part-time work starting immediately.
+      I am currently seeking a full-time technical position in Cybersecurity or Software Engineering for Spring 2025 and beyond.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML/CSS"
-        - "Burpsuite"
         - "Java"
+        - "Burpsuite"
 
         - "JavaScript"
-        - "SQL"
         - "C"
+        - "SQL"
 
         - "Node"
         - "Python"
         - "Docker"
         
 
-  # Experience
-  experience:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - job: "Cyber Risk Management Intern"
-        company: "Align Technology"
-        companyUrl: "https://www.aligntech.com/"
-        date: "May 2024 - Aug 2024"
-        info:
-          enable: true
-          content: I worked full-time over the summer in between school semesters.
-        content: |
-          Interned at Align Technology, the creators of the Invisalign system, in the Risk Management department of Information Security. My experience included:
+  # # Experience
+  # experience:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - job: "Cyber Risk Management Intern"
+  #       company: "Align Technology"
+  #       companyUrl: "https://www.aligntech.com/"
+  #       date: "May 2024 - Aug 2024"
+  #       info:
+  #         enable: true
+  #         content: I worked full-time over the summer in between school semesters.
+  #       content: |
+  #         Interned at Align Technology, the creators of the Invisalign system, in the Risk Management department of Information Security.
           
-          - Assisted with conceptualizing & developing a new Risk Management project assessment form for internal teams.
-          - Completed requests on the existing project assessment form & helped track past-due items.
-          - Engaged with multiple Information Security teams and learned numerous roles within the company.
-          - Created long-lasting connections with employees and other interns through networking events and self-planned outings.
+  #         - Conceptualized & developed a new assessment process for internal security teams to assess new project concepts.
+  #         - Successfully presented & pitched the new assessment process to a panel of Information Security directors, resulting in its adoption.
+  #         - Completed requests on the legacy project assessment form & maintained team backlog on overdue assessments.
+  #         - Personally interviewed multiple Information Security teams and utilized their knowledge to enhance new & existing processes.
+  #         - Coordinated & facilitated cross-team meetings, ensuring efficient communication & alignment among various security departments.
 
-      - job: "Restaurant Server, Busboy, Delivery Driver"
-        company: "Various Restaurants"
-        companyUrl: "https://www.linkedin.com/in/jaylan-argo/details/experience/"
-        date: "Jun 2017 - Aug 2023"
-        info:
-          enable: true
-          content: Worked in various time periods between high school and college.
-        content: |
-          For more details and specific time frames, please view my <a href="https://www.linkedin.com/in/jaylan-argo/details/experience/" target="_blank">LinkedIn Experiences Section</a>.
 
-          During various time frames in this range of dates, I worked as a server, busboy, and delivery driver at various restaurants in the Charlotte area.
-          They were all part time, either as a byproduct of studying during this time or taking on 2 at once. Restaurants in descending order of recency: 
-          - Bahn Thai || Sushi 101 Ballantyne || Kabuto Japanese Steakhouse & Sushi Bar || Wan Fu || Deejai Thai || Thaihouse
+  #     - job: "Restaurant Server, Busboy, Delivery Driver"
+  #       company: "Various Restaurants"
+  #       companyUrl: "https://www.linkedin.com/in/jaylan-argo/details/experience/"
+  #       date: "Jun 2017 - Aug 2023"
+  #       info:
+  #         enable: true
+  #         content: Worked in various time periods between high school and college.
+  #       content: |
+  #         For more details and specific time frames, please view my <a href="https://www.linkedin.com/in/jaylan-argo/details/experience/" target="_blank">LinkedIn Experiences Section</a>.
 
-          Responsibilities may have included:
-          - Sat customers, took orders, ran food, cleaned tables, organized workstations, and facilitated takeout.
-          - Coordinated between many employees to create a smooth workflow alongside peers and meet expectations.
-          - Built great relationships with customers and staff, learned about restaurant service and management from the owner and other employees.
-          - Maintained consistent work in a fast-paced environment, averaging 18,000 steps per 5-hour shift.
+  #         During various time frames, I worked as a server, busboy, or a delivery driver at six different restaurants in the Charlotte area.
+  #         They were all part time, either as a byproduct of studying during this time or taking on 2 at once.
+
+  #         Responsibilities may have included:
+  #         - Sat customers, took orders, ran food, cleaned tables, organized workstations, and facilitated takeout.
+  #         - Maintained consistent work & a positive attitude while under multiple fast-paced & stressful environments.
+  #         - Continually assist other employees while under heavy workloads to guarantee a high standard of service.
+  #         - Built great relationships with customers and staff, learned about restaurant service & management from managers & owners.
 
 
       # - job: "Software Developer"
@@ -249,58 +250,27 @@ params:
       #     - Lead backend developer for a product.
       #     - Created a frontend design for a product.
 
-  # Education
-  education:
-    enable: true
-    # title: "Custom Name"
-    index: false
-    items:
-      - title: "B.S. - Computer Science, Cybersecurity Concentration"
-        school:
-          name: "North Carolina State University"
-          url: "https://www.csc.ncsu.edu/"
-        date: "2022 - 2025"
-        GPA: "3.79/4.0"
-        content: |
-          Currently studying Computer Science within their Cybersecurity Concentration program at NCSU. Focusing on learning about various threats, exploits, and security measures to protect against them. I am also learning about software development, networking, and web development.
-          
-          Relevant Coursework:
-            - Senior Design || Modern Topics in Cybersecurity || Computer Security || Software Security || Network Security || Web App Development || Assembly Language || Software Engineering || C & Software Tools || Data Structures & Algorithms || Operating Systems || Ethics in Computing.
-          
-          Extracurricular Activities
-            - Participated in Hackpack, a cybersecurity-oriented club. Took part in CTF challenges, learned about various threats & exploits, and attended conferences as a group.
-            - Participated (briefly) in the eSports club, where I socialized with other students and played games in a competitive environment.
-      
-      - title: "A.E. - Associate's in Engineering"
-        school:
-          name: "Central Piedmont Community College"
-          url: "https://www.cpcc.edu/"
-        date: "2020 - 2021"
-        GPA: "3.5/4.0"
-        content: |
-          Studied Engineering with a focus in Computer Science at CPCC for a year to save money on tuition and plan a transfer to NCSU.
-          
-          I took courses in Calculus, Physics, and Computer Science to prepare for transferring. I only had 3 semesters worth of work due to AP credits from high school.
-          
-          Relevant Coursework:
-            - Computing Fundamentals, Logic System Design.
-
-          I spent my time outside of school working to save up for transferring to NCSU.
-
-      - title: "High School Diploma"
-        school:
-          name: "Providence High School"
-          url: "https://www.cmsk12.org/providenceHS"
-        GPA: "4.16 out of 5.0"
-
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
+      - title: EVADE
+        content: Currently analyzing a VPN application with advanced evasion techniques.
+        image: /images/projects/Friday-Institute.jpg
+        featured:
+          name: Post
+          link: "/posts/evade/"
+        badges:
+          - "Wireshark"
+          - "Sysinternals"
+          - "Process Monitor"
+          - "Burpsuite"
+          - "Ghidra"
+      
       - title: LAS - AI Artifact Management System
-        content: Created a Web Application from the ground up to Adjudicate AI Artifacts for LAS at NCSU.
+        content: Created a Web Application from the ground up to Adjudicate AI Artifacts for LAS.
         image: /images/projects/LAS-Logo.jpg
         featured:
           name: Post
@@ -339,19 +309,19 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
 
-      - title: Burp Suite Web Academy
-        content: Currently going through the Burp Suite Web Academy and documenting my journey.
-        image: /images/projects/PortSwigger.jpg
-        featured:
-          name: Post
-          link: Posts/burpsuite-web-academy-hub/
-        badges:
-          - "Burpsuite"
-          - "Web Security"
-          - "Education"
-        links:
-          - icon: fas fa-credit-card
-            url: https://portswigger.net/web-security
+      # - title: Burp Suite Web Academy
+      #   content: Currently going through the Burp Suite Web Academy and documenting my journey.
+      #   image: /images/projects/PortSwigger.jpg
+      #   featured:
+      #     name: Post
+      #     link: Posts/burpsuite-web-academy-hub/
+      #   badges:
+      #     - "Burpsuite"
+      #     - "Web Security"
+      #     - "Education"
+      #   links:
+      #     - icon: fas fa-credit-card
+      #       url: https://portswigger.net/web-security
 
             
   # Achievements
@@ -360,11 +330,52 @@ params:
     # title: "Custom Name"
     items:
       - title: HackPack CTF 2024
-        content: Participated in HackPack's CTF event in 2024 and helped solve 4 out of the 9 challenges for my team.
+        content: Participated in HackPack's CTF event in 2024 and helped solve 4 out of the 9 challenges my team solved.
         # image: /images/generic/achievement.jpg
       - title: HooHacks 2024
         content: Participated in the Hoohacks 2024 Hackathon and developed a small beginner-level project with a team of 4.
         url: https://github.com/Mach1212/hoohacks2024
+  
+  # # Education
+  # education:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   index: false
+  #   items:
+  #     - title: "B.S. - Computer Science, Cybersecurity Concentration"
+  #       school:
+  #         name: "North Carolina State University"
+  #         url: "https://www.csc.ncsu.edu/"
+  #       date: "2022 - 2025"
+  #       GPA: "3.70/4.0"
+  #       content: |
+  #         Currently studying Computer Science within their Cybersecurity Concentration program at NCSU. Focusing on learning about various threats, exploits, and security measures to protect against them. I am also learning about software development, networking, and web development.
+          
+  #         Relevant Coursework:
+  #           - Cybersecurity Projects || Senior Design || Modern Topics in Cybersecurity || Computer Security || Software Security || Network Security || Web App Development || Assembly Language || Software Engineering || C & Software Tools || Data Structures & Algorithms || Operating Systems || Ethics in Computing.
+          
+  #         Extracurricular Activities
+  #           - Participated in Hackpack, a cybersecurity-oriented club. Took part in CTF challenges, learned about various threats & exploits, and attended conferences as a group.
+  #           - Attend & Volunteer at various Cybersecurity Conferences & Events. I have attended the following: BSides RDU 2023, BSides RDU 2024, InfoSeCon 2024, ShmooCon 2025, NC PaCE 2025. 
+      
+  #     - title: "A.E. - Associate's in Engineering"
+  #       school:
+  #         name: "Central Piedmont Community College"
+  #         url: "https://www.cpcc.edu/"
+  #       date: "2020 - 2021"
+  #       GPA: "3.5/4.0"
+  #       content: |
+  #         Studied Engineering with a focus in Computer Science at CPCC for a year to save money on tuition and plan a transfer to NCSU.
+          
+  #         I took courses in Calculus, Physics, Computer Science, and General Education to prepare for transferring. I only had 3 semesters worth of work due to AP credits from high school.
+
+  #         I spent my time outside of school working part-time to save money for transferring to NCSU.
+
+  #     - title: "High School Diploma"
+  #       school:
+  #         name: "Providence High School"
+  #         url: "https://www.cmsk12.org/providenceHS"
+  #       GPA: "4.16 out of 5.0"
 
   #Contact
   contact:

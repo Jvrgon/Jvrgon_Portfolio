@@ -299,7 +299,7 @@ params:
         image: /images/projects/CSC-NCSU.jpg
         featured:
           name: Post
-          link: /posts/web-app-dev/
+          link: /posts/csc-405/
         badges:
           - "Binary Exploitation"
           - "Shellcode"

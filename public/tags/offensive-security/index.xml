@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Offensive Security on Jvrgon</title>
+    <link>https://www.jvrgon.dev/tags/offensive-security/</link>
+    <description>Recent content in Offensive Security on Jvrgon</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.jvrgon.dev/tags/offensive-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSC 405 - Computer Security</title>
+      <link>https://www.jvrgon.dev/posts/csc-405/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.jvrgon.dev/posts/csc-405/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;CSC-405 was a class at North Carolina State University (NCSU) built on learning about offensive security. The major topics covered were Low-Level Code Vulnerabilities, Shellcodes, Reverse Engineering, Linux Security, Web Security, and LLM Security.&lt;/p&gt;&#xA;&lt;p&gt;The class focused on practical application first, where content was mainly taught by showcasing the technical steps &amp;amp;  reasoning leading up to a vulnerability. For example, to learn how to perform Shellcode attacks, we, in order:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

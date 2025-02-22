@@ -6,41 +6,27 @@
     <description>Recent content in Tags on Jvrgon</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Apr 2021 23:29:21 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.jvrgon.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example</title>
-      <link>https://www.jvrgon.dev/tags/example/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>https://www.jvrgon.dev/tags/example/</guid>
+      <title>CTFs</title>
+      <link>https://www.jvrgon.dev/tags/ctfs/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.jvrgon.dev/tags/ctfs/</guid>
       <description></description>
     </item>
     <item>
-      <title>Markdown Syntax</title>
-      <link>https://www.jvrgon.dev/tags/markdown-syntax/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>https://www.jvrgon.dev/tags/markdown-syntax/</guid>
+      <title>Offensive Security</title>
+      <link>https://www.jvrgon.dev/tags/offensive-security/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.jvrgon.dev/tags/offensive-security/</guid>
       <description></description>
     </item>
     <item>
-      <title>Sample</title>
-      <link>https://www.jvrgon.dev/tags/sample/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>https://www.jvrgon.dev/tags/sample/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://www.jvrgon.dev/tags/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>https://www.jvrgon.dev/tags/placeholder-text/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>https://www.jvrgon.dev/tags/rich-content/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>https://www.jvrgon.dev/tags/rich-content/</guid>
+      <title>Shellcodes</title>
+      <link>https://www.jvrgon.dev/tags/shellcodes/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.jvrgon.dev/tags/shellcodes/</guid>
       <description></description>
     </item>
   </channel>

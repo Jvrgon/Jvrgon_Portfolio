@@ -89,7 +89,7 @@ params:
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
   color:
-    primaryColor: "#7bb8da"
+    primaryColor: "#6ea5c4"
     secondaryColor: "#f8f9fa"
     textColor: "#343a40"
     secondaryTextColor: "#6c757d"
@@ -136,12 +136,12 @@ params:
     content: |
         ***
 
-        Currently searching for entry-level work in <span style="color: #7bb8da;">cybersecurity</span> or <span style="color: #7bb8da;">software engineering</span>.  
+        Currently searching for entry-level work in <span style="color: #6ea5c4;">cybersecurity</span> or <span style="color: #6ea5c4;">software engineering</span>.  
         
         <div style="page-break-after: always;"></div>
 
-        I would love for <span style="color: #7bb8da;">your</span> company's name to be here!
-    image: /images/icons/School-Picture-Close.jpg
+        I would love for <span style="color: #6ea5c4;">your</span> company's name to be here!
+    image: /images/icons/Jaylan-Headshot.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -167,13 +167,13 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/icons/Dough-Boy.jpg"
+    image: "/images/icons/Jaylan-Computer.jpg"
     content: |
-      I am a Computer Science undergraduate senior who just entered the field of Cybersecurity through NCSU's Concentration last year, and is loving every second of learning about it.
+      I am a recent Computer Science graduate who entered the field of Cybersecurity through NCSU's Cybersecurity Concentration. I am loving every second of learning about Cyber & growing through the Security community.
       
-      I consider myself optimistic, friendly, adaptable, and a diligent worker. I am also a lifelong learner who enjoys the process of gaining knowledge from new experiences and working with peers in group environments.
+      I would consider myself optimistic, social, adaptable, and a lifelong learner who enjoys the process of gaining knowledge from new experiences. I am committed to always asking questions as a tool of continuous learning & self-improvement.
 
-      I am currently seeking a full-time technical position in Cybersecurity or Software Engineering for Spring 2025 and beyond.
+      I am currently seeking a full-time technical position in Cybersecurity or Software Engineering, with a goal of Application Security in the future. I am open to any opportunities that will allow me to grow and learn in the field, and I am excited to see where my career takes me.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"

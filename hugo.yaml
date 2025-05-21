@@ -257,7 +257,7 @@ params:
     # title: "Custom Name"
     items:
       - title: EVADE
-        content: Currently analyzing a VPN application with advanced evasion techniques.
+        content: Analyzed a VPN application with advanced evasion techniques.
         image: /images/projects/Friday-Institute.jpg
         featured:
           name: Post
@@ -329,12 +329,16 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: CackalackyCon 2025 - EverSecCTF 4th Place
+        content: Participated in the CTF hosted by EverSecCTF at CackalackyCon2025, placing 4th place overall with 3 peers from HackPack.
+        url: https://github.com/Mach1212/hoohacks2024
       - title: HackPack CTF 2024
         content: Participated in HackPack's CTF event in 2024 and helped solve 4 out of the 9 challenges my team solved.
         # image: /images/generic/achievement.jpg
       - title: HooHacks 2024
         content: Participated in the Hoohacks 2024 Hackathon and developed a small beginner-level project with a team of 4.
         url: https://github.com/Mach1212/hoohacks2024
+      
   
   # # Education
   # education:
